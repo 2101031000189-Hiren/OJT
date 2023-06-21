@@ -3,57 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant</title>
-</head>
- <style>
-    fieldset{
-        text-align: center;
-        width: 500px;
-        height: 1600px;
+    <title>Document</title>
+    <style>
+        .left{
+            text-align: left;
+            color: cadetblue;
+            font-family: cursive;
+            font-style: italic;
+        }
+        .right{
+            text-align: right;
+        }
+
+        .hp{
+            color: darkcyan;
+            font-family: monospace;
+            font-size: 200%;
+            text-align: center;
+        }
+
+        .colour{
+            color: aquamarine;
+            font-style: italic;
+            font-family: cursive;
+        }
+
+        p{
+            color: gray;
+        }
+
+        table{
+            border-spacing: 30px;
+        }
+        fieldset{
         margin: 22px auto;
-    }
- </style>
-      
-<body>
-    
-    <fieldset>
-    <legend><h1><u> Restaurant </u></h1></legend>
-    <br>
-    
-    <h1>royal restaurant</h1>
-    <br>
-    <br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5630.838563263266!2d72.67158973108901!3d23.01666683875072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87b1ce2d679d%3A0x1b6c9336a031c43f!2z4KSw4KWJ4KSv4KSyIOCksOClh-CkuOCljeCkn-Cli-CksOClh-CkguCknw!5e0!3m2!1shi!2sin!4v1687254817747!5m2!1shi!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+   <fieldset>
+    <legend class="hp"><h1><u>The Eatery Restaurant</u></h1></legend>
 
-    <br>
-
-    <h2>hotel Datails</h2>
-    <ul>
-       <li> <b>CLOSING TIME </b> :11 am–3:30 pm
-        6:30–10:30 pm
-       </li>
-       <li><b>PHONE NO.</b> 9876543210</li>
-       <li> <b>Gmail:</b><a href="royel1234@gmail.com">royel123@gmail.com</a></li>
-    </ul>
-    <br>
-    <br>
-    <h2>Gallery</h2>
-
-    <h3>menu</h3>
-    <div>
-    <img src="https://www.cookwithkushi.com/wp-content/uploads/2023/02/tandoori_paneer_tikka_restaurant_style.jpg" alt="wait"
-    width="200px" height="200px">
-    <p><b>paneer tandoori</b></p>
+    <h2 class="left"> About Eatery :</h2>
+    <p>"The Eatery, our hotel's signature restaurant, offers an array of fine dining options, an à la carte menu serving Indian, Continental & Local delicacies . Benefit from our terrific location in Ahmedabad near Ellisbridge, Off Ashram Road. Bring the dine-in experience to the comfort and safety of your home. Food delivered through Marriott on Wheels up to 7km in Law garden, Panchvati, C.G Road, Mithakhali, IIMA Road, Navrangpura, Sindhu Bhavan Road, Bodakdev, Satellite, Ashram Road, Bopal, Thaltej & more."</p>
+    <div class="left">
+        <img src="https://www.shoutlo.com/assets/images/merchant_images/merchant-104655-5d92e1475cf47.jpg" alt="wait" width="700" height="400">  
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/1c/a8/7c/the-eatery.jpg" alt="wait" width="700" height="400"> 
     </div>
-    <div>
-        <img src="https://i.ytimg.com/vi/5hHGn4y7GBU/maxresdefault.jpg" alt="wait" width="200px" height="200px">
-        <p><b>paneer tufani</b></p>
-    </div>
-    <div>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc7FBR4dC88KXpYwA5Wgx-FKqUeHYPBSgh2h8wyquTobNz2a57oKICShzyd8AxzjSs4FQ&usqp=CAU" alt="wait" width="200px" height="200px">
-        <p><b>kadai paneer</b></p>
+    <br/>
+    <br/>
+    
+    <hr>
+    <hr>
+    <h1 class="colour"><u>Hotel Details</u></h1>
+    <br/>
+
+    <div style="text-align: left;">
+        <p> <b> Address :</b> Four Points by Sheraton (1st Floor), Ellisbridge, opposite Gujarat College, Ahmedabad, Gujarat 380006</p>
+        <p> <b> Time :</b> 10:00 AM  TO  11:00 PM</p>
+        <p> <b> Phone : </b>  079 4900 8833 </p>
+        <p> <b> Gmail : </b> eatery45@gmail.co</p>
     </div>
     
-</fieldset>
+    <hr>
+    <hr>
+    <h1 class="colour"><u>Menu</u></h1>
+
+    <table align="center">
+        <tr style="text-align: center;">
+            <td>
+                <div>
+                    <img src="https://www.nehascookbook.com/wp-content/uploads/2022/09/Pindi-chole-kulcha-WS.jpg" alt="wait" width="400" height="300">
+                    <P><b> CHole-Kulche </b></P>  
+                    <p><b> Price :</b> $20 </p>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <img src="https://media.dinedelicious.in/wp-content/uploads/2021/07/Bread-Pakora-7.jpg" alt="wait" width="400" height="300">
+                    <P><b> Bread Pakora </b></P>  
+                    <p><b> Price :</b> $10 </p>
+                </div>
+            </td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>
+                <div>
+                    <img src="https://www.whiskaffair.com/wp-content/uploads/2017/03/Aloo-Chaat-3-500x375.jpg" alt="wait" width="400" height="300">
+                    <P><b> Aloo Chaat </b></P>  
+                    <p><b> Price :</b> $5 </p>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <img src="https://www.cookwithmanali.com/wp-content/uploads/2018/04/Vada-Pav-500x500.jpg" alt="wait" width="400" height="300">
+                    <P><b> Vada Pav </b></P>  
+                    <p><b> Price :</b> $3 </p>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+    <hr>
+    <hr>
+    <h1 class="colour"><u>Map</u></h1>
+    <br/>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58752.57350274703!2d72.49136804863281!3d23.022456100000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f8a81c4ab5%3A0xf46d14ba5552b91c!2sThe%20Eatery!5e0!3m2!1sen!2sin!4v1687334630668!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br/>
+
+   </fieldset> 
 </body>
 </html>
